@@ -16,5 +16,8 @@ array.sort do |a, b|
 end
 end
 
-def reverse_array
+def reverse_array(array)
+  array.reverse 
+end 
+
   
