@@ -16,7 +16,5 @@ array.sort do |a, b|
 end
 end
 
-def swap_elements(array)
-  array.insert(2, array.delete_at(3))
-   array.insert(3, array.delete_at(2))
-end
+def reverse_array
+  
