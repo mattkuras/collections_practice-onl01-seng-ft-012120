@@ -16,9 +16,6 @@ array.sort do |a, b|
 end
 end
 
-def check_array(nums)
-    temp = nums[1];
-	nums[1] = nums[nums[2]];
-	nums[nums.length-1] = temp;
-	return nums;
+def swap_elements(array)
+  array.insert(2, array.delete_at(3))
 end
