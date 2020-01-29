@@ -26,3 +26,4 @@ end
 
 def find_a(array)
   array.find|elem| elem.start_with?("a")
+end
