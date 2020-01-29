@@ -22,7 +22,7 @@ end
 
 def kesha_maker(array)
   arr = []
-  array.each{|char| arr << char[2] = $}
+  array.each{|char| arr << char[2] = "$"}
 end
   arr
 end 
