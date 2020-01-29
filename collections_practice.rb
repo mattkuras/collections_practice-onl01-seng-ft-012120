@@ -37,5 +37,12 @@ def sum_array(array)
   array.inject(0) { |result, element| result + element }  
 end
 
-def add_s(array)
-  array.each_with_index{|elem| elem << "s"}
+def add_s(array) 
+  array.collect do |element| 
+  if element != "feet" 
+    element+"s"
+  else 
+    element           
+  end
+  end 
+end 
